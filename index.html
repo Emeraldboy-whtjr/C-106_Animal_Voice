@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Animal Voices</h2>
+      <p>NOTE:- Play sounds like meowing,roaring,barking and mooing to make these pictures change</p>
+
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-primary" onclick="play()">START LISTENING</button>
+        <h3 id="result_label">I can hear:- </h3>
+        <h3 id="result_accuracy">Accuracy:- </h3>
+        <img id="image-1" src="dog-img.jpg" width="200" height="200">
+        <img id="image-2" src="cat-img.jpg" width="200" height="200">
+        <img id="image-3" src="lion-img.jpg" width="200" height="200">
+        <img id="image-4" src="cow-img.jpg" width="200" height="200">
+      </center>
+    </div>
+    <div class="fotter">Developed by- Aayush Roy</div>
+      
+<script src="main.js"></script>
+  </body>
+</html>

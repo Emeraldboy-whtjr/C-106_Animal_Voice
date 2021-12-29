@@ -1,0 +1,15 @@
+.fotter{
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    line-height: 3;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: lightgreen;
+}
